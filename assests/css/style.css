@@ -1,0 +1,52 @@
+section.myContent div#logosImages{
+    margin: 20px 0;
+}
+section.myContent div#logosImages img{
+    width: 100px;
+    margin-left: 20px;
+}
+
+nav li:hover{
+    border-bottom: 1px solid rgba(0,0,0,.125);
+    margin-bottom: -1px;
+}
+
+/* SOCIAL */
+.social a i:hover{
+    color: gray;
+}
+
+main.container .social{
+    margin-top: 20px;
+}
+main.container .social a{
+    padding: 10px;
+}
+
+
+/* FOOTER */
+footer{
+    border-top: 1px solid rgba(0,0,0,.125);
+    height: 300px !important;
+}
+
+footer #footer_content{}
+
+footer img{
+    width: 20%;
+}
+
+/* list Tags */
+footer ul li.list-group-item{
+    margin: 0;
+    padding: 10px 0;
+}
+footer li i {
+    padding-right: 15px;
+    color: gray !important;
+}
+
+footer a i{
+    padding: 10px;
+}
+
