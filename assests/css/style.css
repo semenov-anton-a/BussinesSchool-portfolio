@@ -2,7 +2,7 @@ section.myContent div#logosImages{
     margin: 20px 0;
 }
 section.myContent div#logosImages img{
-    width: 100px;
+    max-width: 130px;
     margin-left: 20px;
 }
 
