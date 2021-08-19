@@ -18,7 +18,7 @@ $(document).ready(function () {
         return false;
     };
 
-    $('#myProgress button').click(function(){
+    $('#myProgress button').one('click',function(){
         $($myProgress).find('li').each(function(index){
             let $this = $(this);
             ProgressBar( $this.find('div.progress-bar') );
