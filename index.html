@@ -29,7 +29,7 @@
 	<body>
 		<!-- Header -->
 		<header class="container">
-			<nav class="navbar navbar-expand-sm navbar-light">
+			<!-- <nav class="navbar navbar-expand-sm navbar-light">
 				<div class="container">
 					<a class="navbar-brand" href="#">Anton Semenov</a>
 					<button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -41,18 +41,18 @@
 
 					<div class="collapse navbar-collapse"></div>
 
-					<!-- <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
 						<ul class="navbar-nav mr-auto">
 							<li class="nav-item active">
 								<a class="nav-link" href="#">Home</a>
 							</li>
 							<li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
 						</ul>
-					</div> -->
+					</div>
 					
 				</div>
-			</nav>
-			<hr />
+			</nav>-->	
+			<hr /> 
 		</header>
 
 		<!-- Main Content Container -->
@@ -60,17 +60,22 @@
 			<div class="row">
 				<section class="col-md-8 myContent">
 					<h1>About Me</h1>
-					<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam, aliquid repudiandae maiores asperiores, libero odit dolorum nulla reiciendis pariatur magnam perspiciatis animi dolores cum beatae ducimus, officia accusantium optio commodi error sapiente? Recusandae ullam eveniet natus id officiis eligendi magni repellendus iure nihil, voluptatibus impedit sint dignissimos expedita cum labore!
+					<p>Hello 
 					</p>
-					<h2>Projects</h2>
-					<div id="logosImages" class="">
-						<a href="https://laiffimme.fi" target="_blank" rel="noopener noreferrer">
+					<h2 class="text-center">My Projects</h2>
+					<div id="logosImages" class="d-flex text-center">
+						<a href="https://laiffimme.fi/tiimi" target="_blank" rel="noopener noreferrer">
 							<img src="assests/img/laiffimme_logo.png">
 						</a>
+						<div class="col-2 ms-5">
+						<a href="https://www.eurocargo.fi/" target="_blank" rel="noopener noreferrer">
+							EuroCargo.fi Warehouse System
+						</a>
+					</div>
 					</div>
 
 					<!-- Languages LOGOS -->
-					<h2>Program languages:</h2>
+					<h2 class="text-center">Program languages:</h2>
 					<div id="logosImages" class="text-center">
 						<img src="assests/img/php.png">
 						<img src="assests/img/mysql.png">
@@ -81,10 +86,10 @@
 					<!-- Progress Bar -->
 					<div id='myProgress' class="text-center">
 						<p>
-							<button class="btn btn-primary" data-bs-toggle="collapse"
+							<button class="btn btn-lg btn-primary" data-bs-toggle="collapse"
 								href="#multiCollapseExample1"
 								role="button" aria-expanded="false"
-								aria-controls="multiCollapseExample1">Show progress
+								aria-controls="multiCollapseExample1">Press to show my progress
 							</button>
 						</p>
 						<div class="col text-start">
@@ -96,7 +101,7 @@
 										<div class="progress">
 											<div class="progress-bar" role="progressbar" style="width: 0%;"
 												aria-valuenow="0" aria-valuemin="00" aria-valuemax="100">
-												<span class="count">81</span>
+												<span class="count">70</span>
 											</div>
 										</div>
 									</li>
@@ -106,7 +111,17 @@
 										<div class="progress">
 											<div class="progress-bar" role="progressbar" style="width: 0%;"
 												aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-												<span class="count">72</span>
+												<span class="count">80</span>
+											</div>
+										</div>
+									</li>
+									<!-- PHP -->
+									<li class="list-group-item">
+										<span class='fs-5'>PHP / Koseven Framework</span>
+										<div class="progress">
+											<div class="progress-bar" role="progressbar" style="width: 0%;"
+												aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+												<span class="count">80</span>
 											</div>
 										</div>
 									</li>
@@ -116,7 +131,27 @@
 										<div class="progress">
 											<div class="progress-bar" role="progressbar" style="width: 0%;"
 												aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-												<span class="count">64</span>
+												<span class="count">65</span>
+											</div>
+										</div>
+									</li>
+									<!-- JavScript -->
+									<li class="list-group-item">
+										<span class='fs-5'>JavaScript</span>
+										<div class="progress">
+											<div class="progress-bar" role="progressbar" style="width: 0%;"
+												aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+												<span class="count">55</span>
+											</div>
+										</div>
+									</li>
+									<!-- Angular -->
+									<li class="list-group-item">
+										<span class='fs-5'>Angular</span>
+										<div class="progress">
+											<div class="progress-bar" role="progressbar" style="width: 0%;"
+												aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+												<span class="count">15</span>
 											</div>
 										</div>
 									</li>
@@ -136,7 +171,17 @@
 										<div class="progress">
 											<div class="progress-bar" role="progressbar" style="width: 0%;"
 												aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
-												<span class="count">55</span>
+												<span class="count">33</span>
+											</div>
+										</div>
+									</li>
+									<!-- SpringBoot -->
+									<li class="list-group-item">
+										<span class='fs-5'>Spring Boot / Java Framework</span>
+										<div class="progress">
+											<div class="progress-bar" role="progressbar" style="width: 0%;"
+												aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+												<span class="count">25</span>
 											</div>
 										</div>
 									</li>
@@ -145,11 +190,12 @@
 						</div>
 					</div>
 					
-					<h2 class="mt-5">My Tools:</h2>
+					<h2 class="mt-5 text-center">My Tools:</h2>
 					<div id="logosImages" class="text-center">
 						<img src="assests/img/docker.png">
 						<img src="assests/img/debian.png">
 						<img src="assests/img/vscode.png">
+						<img src="assests/img/heands.jpg">
 					</div>
 				</section>
 				
@@ -157,13 +203,28 @@
 					<div class="card">
 						<img src="assests/img/face.jpg" class="card-img-top" alt="Anton Semenov">
 						<div class="card-body">
-							<h5 class="card-title text-center">My Social</h5>
+							<h5 class="card-title text-center">Anton Semenov</h5>
+							<!-- <h5 class="card-title text-center">My Social</h5> -->
 							<div class="social text-center">
-								<a href="#" class='text-secondary'><i class="fab fa-github fa-2x"></i></a>
-								<a href="#" class='text-secondary'><i class="fab fa-facebook fa-2x"></i></a>
-								<a href="#" class='text-secondary'><i class="fab fa-twitter fa-2x"></i></a>
-								<a href="#" class='text-secondary'><i class="fab fa-google-plus-g fa-2x"></i></a>
-								<a href="#" class='text-secondary'><i class="fab fa-instagram fa-2x"></i></a>
+								<a href="https://github.com/semenov-anton-a" 
+									class='text-secondary'><i class="fab fa-github fa-2x"></i></a>
+								<a href="https://www.facebook.com/semenov.anton.a" 
+									class='text-secondary'><i class="fab fa-facebook fa-2x"></i></a>
+								<!-- <a href="#" class='text-secondary'><i class="fab fa-twitter fa-2x"></i></a> -->
+								<!-- <a href="#" class='text-secondary'><i class="fab fa-google-plus-g fa-2x"></i></a> -->
+								<!-- <a href="#" class='text-secondary'><i class="fab fa-instagram fa-2x"></i></a> -->
+								<div class="col-md-12 mt-5">
+									<span class="fs-4 fst-italic">Contacts</span>
+									<ul class="list-group list-group-flush">
+										<!-- <li class="list-group-item"><i class="fas fa-envelope"></i>***</li> -->
+										<li class="list-group-item text-primary">
+											<button class="btn btn-primary btn-showcontacts	" >
+												<i class="fas fa-phone"></i>
+												<i class="fas fa-envelope"></i>
+												&nbsp;Show Contacts</button>
+										</li>
+									</ul>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -171,7 +232,11 @@
 			</div>
 		</main>
 		<!-- FOOTER -->
-		<footer class="container-fluid mt-5">
+		<footer class="container-fluid mt-5 text-center">
+			<button class="btn btn-primary btn-lg col-6 btn-showcontacts mt-5" >
+				<i class="fas fa-phone"></i>
+				<i class="fas fa-envelope"></i>
+				&nbsp;Show Contacts</button>
 			<!-- Top Menu -->
 			<!-- <div class="col-2 ms-auto me-auto">
 				<nav class="navbar navbar-expand-lg navbar-light">
@@ -191,25 +256,26 @@
 			<div class="container mt-5">
 				<div class="row" id="footer_content">
 					<!-- Col Left as LOGO-->
-					<div class="col-md-4">
+					<!-- <div class="col-md-4">
 						<div class="">
 							<img src="assests/img/face.jpg" class="rounded-circle" alt="AS logo">
 						</div>
 						<div>
 							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam unde
-								repellendus soluta necessitatibus laudantium blanditiis?</p>
+								repellendus soluta necessitatibus laudantium blanditiis?
+							</p>
 						</div>
-					</div>
+					</div> -->
 					<!-- Col center AS contacts-->
-					<div class="col-md-4">
+					<!-- <div class="col-md-4">
 						<span class="fs-4 fst-italic">Contacts</span>
 						<ul class="list-group list-group-flush">
 							<li class="list-group-item"><i class="fas fa-envelope"></i>***</li>
 							<li class="list-group-item"><i class="fas fa-phone"></i>***</li>
 						</ul>
-					</div>
+					</div> -->
 					<!-- Col Right as Follow us-->
-					<div class="col-md-4">
+					<!-- <div class="col-md-4">
 						<span class="fs-4 fst-italic">Follow us</span>
 						<div class="social">
 							<a href="#" class='text-secondary'><i class="fab fa-github fa-2x"></i></a>
@@ -218,7 +284,7 @@
 							<a href="#" class='text-secondary'><i class="fab fa-google-plus-g fa-2x"></i></a>
 							<a href="#" class='text-secondary'><i class="fab fa-instagram fa-2x"></i></a>
 						</div>
-					</div>
+					</div> -->
 				</div>
 			</div>
 		</footer>
@@ -246,16 +312,62 @@
 			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
 			integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
 			crossorigin="anonymous"></script>
-		<script src="assests/js/main.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function () {
+
+				function counter( obj ) {
+					$(obj).prop('Counter',0).animate({ Counter: $(obj).text() },
+						{
+							duration: 3800, easing: 'swing',
+							step: function (now) { $(obj).text(Math.ceil(now)+"%") }
+						}
+					);
+				}
+
+				let $myProgress = $("#myProgress");
+
+				ProgressBar = function ( $bar ) {
+					let proc = $bar.find('span.count').text();
+					counter( $bar.find('span.count') )
+					$bar.animate({ width: proc+"%" }, 3000)
+					return false;
+				};
+
+				$('#myProgress button').one('click',function(){
+					$($myProgress).find('li').each(function(index){
+						let $this = $(this);
+						ProgressBar( $this.find('div.progress-bar') );
+					});
+				})
+
+			});
+		</script>
 		<script src="assests/js/modal.js"></script>
 		<script>
 		$(document).ready(function () {
-			let $socialContainer = $('div.social');
-			$socialContainer.click(function () {
+			$( '.btn-showcontacts' ).click(function(){
+				let phone = "<p class=''><i class='fas fa-phone'></i>&nbsp;+358 44 251 77 86</p>"
+				let email = "<p class=''><i class='fas fa-envelope'></i>&nbsp;semenov.anton.a@gmail.com</p>"
+				let callMe = "<p class='col-12'><img width='100%' height=''src='assests/img/ss-call-me.jpg'/></p>"
+
+
+				// let phone = "+358 44 251 77 86";
+				// let email = "semenov.anton.a@gmail.com";
 				Boostrap5Modal.init()
-					.title('Error', 'danger')
-					.body("I am not ready yet to publish my social networks on the Internet.").show();
+					// .size('lg')
+					.title('Contacts', 'primary')
+					.body(phone + email + callMe)
+					.show();
 			});
+			
+		
+		// 	let $socialContainer = $('div.social');
+		// 	$socialContainer.click(function () {
+		// 		Boostrap5Modal.init()
+		// 			.title('Error', 'danger')
+		// 			.body("I am not ready yet to publish my social networks on the Internet.")
+		// 			.show();
+		// 	});
 		});
 	</script>
 	</body>
