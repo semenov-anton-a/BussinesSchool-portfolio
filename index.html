@@ -64,7 +64,7 @@
 						Hey ! My name is Anton Semenov.<br/>
 						I have been interested in network technology all my life.<br/>
 
-						In 2003 had been graduated from the Radio Engineering prof. Lyceum majoring in computer network operator.
+						In 2003 had been graduated from the Radio Engineering prof. Lyceum majoring in computer network operator.<br/>
 						
 						In 2011, Kouvolan Seudun Ammattiopisto - merkonomi ended.
 					</p>
@@ -360,8 +360,8 @@
 		<script>
 		$(document).ready(function () {
 			$( '.btn-showcontacts' ).click(function(){
-				let phone = "<p class=''><i class='fas fa-phone'></i>&nbsp;+358 44 251 77 86</p>"
-				let email = "<p class=''><i class='fas fa-envelope'></i>&nbsp;semenov.anton.a@gmail.com</p>"
+				let phone = "<p class='text-center'><i class='fas fa-phone'></i>&nbsp;+358 44 251 77 86</p>"
+				let email = "<p class='text-center'><i class='fas fa-envelope'></i>&nbsp;semenov.anton.a@gmail.com</p>"
 				let callMe = "<p class='col-12'><img width='100%' height=''src='assests/img/ss-call-me.jpg'/></p>"
 
 
@@ -370,7 +370,7 @@
 				Boostrap5Modal.init()
 					// .size('lg')
 					.title('Contacts', 'primary')
-					.body(phone + email + callMe)
+					.body(callMe + phone + email)
 					.show();
 			});
 			
